@@ -20,23 +20,25 @@ font-family: "Big Shoulders Display", sans-serif;
 font-size: 30px;
 font-weight: 700;
 color: var(--Transparent-white);
+overflow: scroll;
 }
 
 .block{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        padding: 40px;
-        margin: 20px;
-        width: 90%;
+        margin: -35px;
+        margin: 4px;
+        margin-top: -120px;
+        width: 100%;
         background-color: transparent;
         box-sizing: border-box;
         }
         .block div{
             display: flex;
             flex-direction: row;
-            width: 90%;
-            height: 550px;
+            width: 100%;
+            height: 433px;
             padding: 20px;
             text-align: center;
             color: var(--Very-light-gray);
@@ -146,8 +148,8 @@ a{
             justify-content: center;
             flex-direction: row;
             flex-wrap: nowrap;
-            padding: 60px;
-            margin: 5px;
+            padding: 120px;
+            margin: -40px;
             background-color: transparent;
             box-sizing: border-box;
             }
@@ -172,7 +174,7 @@ align-self: start;
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 60px;
+    padding: 20px;
     margin: 5px;
     background-color: transparent;
     box-sizing: border-box;
@@ -181,7 +183,7 @@ align-self: start;
         display: block;
         flex-direction: row;
         width: 100%;
-        height: 550px;
+        height: 435px;
         min-height: 100px;
         max-width: 600px;
         justify-items: space-between;
@@ -208,16 +210,19 @@ align-self: start;
             .block div{
                 display: block;
                 flex-direction: column;
-                width: 50%;
+                width: 90%;
                 height: 500px;
                 justify-items: space-between;
                 padding: 20px;
+                padding-top: -10px;
                 text-align: center;
+
+                margin-left: -20px;
                 color: var(--Very-light-gray);
         }    
     .b1{
-        border-top-left-radius: 3%;
-        border-top-right-radius: 3%;
+        border-top-left-radius: 2%;
+        border-top-right-radius: 2%;
         border-bottom-left-radius: 0%;
 
     }
@@ -226,8 +231,12 @@ align-self: start;
     }
     .b3{
         border-top-right-radius: 0%;
-        border-bottom-left-radius: 3%;
+        border-bottom-left-radius: 2%;
 
+
+    }
+    .btn {
+        margin-left: -4px;
 
     }
 }
